@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Select Interests</title>
+</head>
+<body>
+    <h1>Select Your Interests</h1>
+    <form action="/interests" method="POST">
+        <div class="interest">
+            <input type="checkbox" id="fashion" name="interests" value="fashion">
+            <label for="fashion"><img src="/static/images/fashion.jpg" alt="Fashion"> 时尚</label>
+        </div>
+
+        <div class="interest">
+            <input type="checkbox" id="beauty" name="interests" value="beauty">
+            <label for="beauty"><img src="/static/images/beauty.jpg" alt="Beauty"> 美妆</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
